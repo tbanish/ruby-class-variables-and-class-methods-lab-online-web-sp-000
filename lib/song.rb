@@ -26,6 +26,14 @@ class Song
     @@artists.uniq 
   end
   
+  def self.genre_count
+    @@genres
+  end
+  
+  def self.artist_count
+    @@artists
+  end
+  
   
   
 end
